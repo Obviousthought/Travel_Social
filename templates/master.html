@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Travel Network</title>
+
+
+	</head>
+	<body>
+		<div class "navbar">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">TravelIt</a>
+			</div>
+			<div class="navbar-inner">
+				<div class="container">
+					<ul class="nav">
+						<li><a href="{{url_for("index")}}">TravelIt</a></li>
+						{% if current_user.is_authenticated() %}
+						<li>
+						<li><a href="{{url_for("view_packinglist", id=current_user.id)}}">

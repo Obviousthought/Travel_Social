@@ -1,0 +1,1 @@
+Travel Social Network Web Application with packing list recommendation generator based upon destination, time period of trip, and activities.
