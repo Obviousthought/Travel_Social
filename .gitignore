@@ -2,4 +2,3 @@
 venv
 .*.swp
 *.db
-config.py
